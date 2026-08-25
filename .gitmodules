@@ -1,0 +1,3 @@
+[submodule "bump-archive"]
+	path = bump-archive
+	url = https://github.com/ArtveFlinaInBupt/bump-archive.git
