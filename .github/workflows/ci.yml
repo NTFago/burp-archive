@@ -32,7 +32,7 @@ jobs:
 
       - name: Restore pinned fonts
         id: font-cache
-        uses: actions/cache@v5
+        uses: actions/cache@v6
         with:
           path: ${{ env.FONT_DIR }}
           key: typst-fonts-${{ hashFiles('.github/scripts/install-fonts.sh') }}
